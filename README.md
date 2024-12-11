@@ -35,6 +35,9 @@ with its chapters compiled in 110 tankōbon volumes as of November 2024
 9. Characters Page: Browse through the list of One Piece characters, including their names, bounties, and devil fruits.
 10. About Page: Learn more about the One Piece anime series.
 
+![Screenshot 2024-12-11 132036](https://github.com/user-attachments/assets/a93f1f1c-bb60-41f5-9385-427d8743a842)
+
+
 
 # Credits
 This website was developed by Amukelani khoza.
