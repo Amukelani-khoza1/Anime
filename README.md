@@ -1,7 +1,7 @@
-#Name 
+# Name 
 Onepiece_Project
 
-#Description
+# Description
 One Piece is a Japanese manga series written and illustrated by Eiichiro Oda. 
 It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since July 1997,
 with its chapters compiled in 110 tankōbon volumes as of November 2024
@@ -14,7 +14,7 @@ with its chapters compiled in 110 tankōbon volumes as of November 2024
 5. [Home Page](#home-page) - Welcome message and latest news.
 6. [Navigation Bar](#navigation-bar) - Navigation links for the site.
 
-#Installation
+# Installation
 1. python -m venv env
    source env/bin/activate  # On Windows use `env\Scripts\activate`
 2. pip install django
@@ -22,7 +22,7 @@ with its chapters compiled in 110 tankōbon volumes as of November 2024
 3. python manage.py migrate
    python manage.py runserver
 
-#Usage
+# Usage
 1. Access the Site: Open your web browser and go to http://127.0.0.1:8000/ to view the One Piece Fan Site.
 2. Login and Registration:
 3. Navigate to the login page by clicking on the "Login" link in the navigation bar.
@@ -36,5 +36,5 @@ with its chapters compiled in 110 tankōbon volumes as of November 2024
 10. About Page: Learn more about the One Piece anime series.
 
 
-#Credits
+# Credits
 This website was developed by Amukelani khoza.
