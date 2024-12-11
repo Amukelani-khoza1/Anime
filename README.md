@@ -26,15 +26,22 @@ with its chapters compiled in 110 tankōbon volumes as of November 2024
 1. Access the Site: Open your web browser and go to http://127.0.0.1:8000/ to view the One Piece Fan Site.
 2. Login and Registration:
 3. Navigate to the login page by clicking on the "Login" link in the navigation bar.
+
 4. If you don't have an account, click on the "Register" button to create a new account.
-5. Fill in the registration form and submit it to create your account.
-6. Use your credentials to log in.
-7. Explore the Site:
+5. ![Screenshot 2024-12-11 133608](https://github.com/user-attachments/assets/091c3613-87f3-4a61-8906-49001bf51ded)
 
-8. Home Page: View the welcome message and latest news about One Piece.
-9. Characters Page: Browse through the list of One Piece characters, including their names, bounties, and devil fruits.
-10. About Page: Learn more about the One Piece anime series.
+6. Fill in the registration form and submit it to create your account.
+7. ![Screenshot 2024-12-11 133651](https://github.com/user-attachments/assets/993bf632-53a5-4bde-ad8c-035410cf0a2c)
 
+8. Use your credentials to log in.
+9. Explore the Site:
+
+10. Home Page: View the welcome message and latest news about One Piece.
+11. ![Screenshot 2024-12-11 131948](https://github.com/user-attachments/assets/31477bba-0189-457e-baf3-d2af4d04d264)
+12. Characters Page: Browse through the list of One Piece characters, including their names, bounties, and devil fruits.
+13. ![Screenshot 2024-12-11 132022](https://github.com/user-attachments/assets/784ba870-de8b-4dea-aa25-84aac96d32d6)
+
+14. About Page: Learn more about the One Piece anime series.
 ![Screenshot 2024-12-11 132036](https://github.com/user-attachments/assets/a93f1f1c-bb60-41f5-9385-427d8743a842)
 
 
