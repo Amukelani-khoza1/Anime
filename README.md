@@ -17,7 +17,7 @@ with its chapters compiled in 110 tankōbon volumes as of November 2024
 # Installation
 1. python -m venv env
    source env/bin/activate  # On Windows use `env\Scripts\activate`
-2. pip install django
+2. pip -r requirements.txt
    pip install <other-dependencies>
 3. python manage.py migrate
    python manage.py runserver
