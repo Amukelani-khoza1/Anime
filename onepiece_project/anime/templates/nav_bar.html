@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}My Site{% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="container text-center">
+        {% load static %}
+        <img src="{% static 'assets/Logo.PNG' %}" alt="One Piece Logo" width="600">
+        <nav>
+            <h6><a href="{% url 'home' %}">Home</a></h6>
+            <h6><a href="{% url 'characters' %}">Characters</a></h6>
+            <h6><a href="{% url 'about' %}">About</a></h6>
+            <h6>
+                {% if user.is_authenticated %}
+                <form method="post" action="{% url 'logout' %}">
+                    {% csrf_token %}
+                    <button type="submit">Logout</button>
+                </form>
+                {% else %}
+                <button><a href="{% url 'login' %}">Login</a></button>
+                {% endif %}
+            </h6>
+        </nav>
+    </div>
+    {% block content %}{% endblock %}
+</body>
+</html>
