@@ -26,6 +26,13 @@ Before starting, ensure you have the following installed:
 - Python 3.x (for local development without Docker)
 - [Git](https://git-scm.com/)
 
+## Setup Instructions
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/yourrepo.git
+   cd yourrepo
+
 
 ## Installation using Docker
 
@@ -43,3 +50,23 @@ Before starting, ensure you have the following installed:
 
 5. Access the application in your browser:
    http://localhost:8000
+
+
+## Development workflow
+
+1. Modify the Code Make changes to your Django views, models, or templates.
+
+2. Rebuild the Docker Image After changes:
+   docker build -t onepiece_project .
+
+3. Run Tests Run tests using:
+   docker exec -it <container_id_or_name> python manage.py test
+
+
+## Dockerfile & Requirements.txt
+
+- Dockerfile: Used to create a Docker image that runs your Django app.
+
+- requirements.txt: Lists all Python dependencies required to run the project.
+
+Make sure both of these files are in the same directory as manage.py.
